@@ -1,0 +1,73 @@
+.container-typing {
+    background-color: rgb(224, 224, 224);
+    width: 800px;
+    height: 100%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    padding:50px;
+    box-sizing: border-box;
+}
+
+.container-typing h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    font-weight: bolder;
+    color: rgb(2, 27, 51);
+    text-align: center;
+}
+
+.container-typing input {
+    width: 95%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin: auto;
+    padding: 1px 10px;
+    outline-color: rgba(2, 27, 51, 0.2);
+}
+
+.container-words {
+    padding: 20px;
+    text-align: justify;
+}
+
+.background-green {
+    background-color:rgb(74, 255, 186);
+}
+
+.background-red {
+    background-color: rgb(255, 122, 122);
+}
+
+.changePlayer {
+    margin-right: 10px;
+    padding: 10px;
+    width: 150px;
+    background-color: white;
+    border: 1px solid rgb(2, 27, 51);
+    color: rgb(2, 27, 51);
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.changePlayer:hover {
+    background-color: rgba(2, 27, 51, 0.1);
+}
+.newGame:hover {
+    background-color: rgba(2, 27, 51, 0.8);
+}
+
+.newGame {
+    padding: 10px;
+    width: 150px;
+    color: white;
+    border: 1px solid rgb(2, 27, 51);
+    background-color: rgb(2, 27, 51);
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 40px 0;
+    cursor: pointer;
+}
